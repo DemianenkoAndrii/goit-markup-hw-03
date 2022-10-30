@@ -50,12 +50,14 @@ button {
   line-height: 1.19;
   text-decoration: none;
   margin-right: 0;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-web {
   color: var(--accent-text-color);
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .header-container {
@@ -316,11 +318,15 @@ padding-left: 0;
 .link-footer:focus {
   color: var(--accent-text-color);
 }
+
+
 .map {
+  display: block;
     margin-bottom: 9px;
 }
 
 .mail-footer {
+  display: block;
 margin-bottom: 9px;
 }
 
@@ -399,10 +405,10 @@ color: var(--hero-text-color);
 .project {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 30px;
     padding: 0;
 }
 
 .dropdown {
-  flex-basis: calc((100% - 45px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
