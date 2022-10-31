@@ -49,6 +49,7 @@ button {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  display: block;
   margin-right: 0;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -57,7 +58,6 @@ button {
 .logo-web {
   color: var(--accent-text-color);
   display: inline-block;
-  margin-bottom: 20px;
 }
 
 .header-container {
@@ -292,6 +292,7 @@ padding-left: 0;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  display: block;
   margin-bottom: 20px;
 }
 
